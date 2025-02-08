@@ -50,6 +50,19 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 - I just don't like how tmux haven't default scrolling with mouse / touchpad, so I basically adding a `set -g mouse on` to tmux config file.
 
+## Profile File.
+
+- I set $PATH for **golang installation folder** and **all golang tools (specifically for bug bounty hunting)**.
+
+```shell
+# ... omitted ...
+# set golang path
+export PATH=$PATH:/usr/local/go/bin
+
+# set golang tools
+export PATH=$PATH:$HOME/go/bin
+```
+
 ## HOW TO: Remove Vim Plugins.
 
 - Open `~/.vimrc` file and delete the plugin that you want to delete.
