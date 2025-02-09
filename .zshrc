@@ -260,18 +260,23 @@ fi
 # WebSocketReflectorX Client
 alias wsrx='/opt/wsrx/WebSocketReflectorX-0.3.3-linux64.AppImage &'
 
-# Alias for Python
+# Alias for Python v3.13.1
 alias python3='/usr/local/python/3.13.1/bin/python3.13'
 alias python='/usr/local/python/3.13.1/bin/python3.13'
 alias pip3='/usr/local/python/3.13.1/bin/pip3.13'
 alias pip='/usr/local/python/3.13.1/bin/pip3.13'
 
+# Alias for PHP v8.4.3
+alias php='/usr/local/php/8.4.3/bin/php'
+alias phar='/usr/local/php/8.4.3/bin/phar.phar'
+alias php-cgi='/usr/local/php/8.4.3/bin/php-cgi'
+alias php-config='/usr/local/php/8.4.3/bin/php-config'
+alias phpdbg='/usr/local/php/8.4.3/bin/phpdbg'
+alias phpize='/usr/local/php/8.4.3/bin/phpize'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# dirsearch
-alias dirsearch='python3 ~/Tools/dirsearch/dirsearch.py'
 
 # SSRFmap
 alias ssrfmap='python3 ~/Tools/SSRFmap/ssrfmap.py'
